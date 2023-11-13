@@ -464,6 +464,7 @@ footer {
     body{
         overflow-x: hidden;
     }
+    
     #about .container,
     #services .container,
     #portifolio .container,
@@ -473,10 +474,17 @@ footer {
         margin: auto;
         justify-content: center;
     }
-
+    #contact .row{
+        display: block;
+    }
     
     header .header_content {
         grid-template-columns: 1fr 0.5fr;
+        display: inline;
+    }
+    header .header_content .content_text {
+        margin-top: 10rem;
+        margin-bottom: 0;
     }
     header .header_content .btn_primary{
         font-size: 13px;
@@ -488,9 +496,6 @@ footer {
     header .header_content p span,
     header .header_content .title {
         font-size: 16px;
-    }
-    header .header_content .image{
-        width: 288px;
     }
 
     header .header_content .social a i{
